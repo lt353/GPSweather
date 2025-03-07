@@ -7,12 +7,18 @@
   <body>
 
     <h1>Weather API Results</h1>
-
+    <!-- This form has 2 inputs: longitude and latitude. And 1 submit button. -->
     <form action="/" method="post">
-        <label for="zipInput">Zip Code: </label>
-        <input id = "zipInput" type="text" name="zipInput">
+        <label for="latInput">Latitude: </label>
+        <input id = "latInput" type="text" name="latInput">
+        <label for="lonInput">Longitude: </label>
+        <input id = "lonInput" type="text" name="lonInput">
         <button type="submit">Go</button>
     </form>
-
+    <!--I mostly added this in for myself as it was handy to have available-->
+    <p>
+      Unsure of your GPS coordinates?
+      <a href="https://www.gps-coordinates.net/" target="_blank">Click here to find them</a>
+    </p>
   </body>
 </html>
