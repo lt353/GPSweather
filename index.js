@@ -3,7 +3,13 @@ Name: Lindsay Trenton
 Original Author: Debasis Bhattacharya
 Assignment: GPS Coordinates in the Weather App with OpenWeather API 
 
-Description: This code creates a Node.js server using Express, fetches weather data from the OpenWeather API based on a users latitude and longitude coordinates input, and displays the results on a webpage. What I have changed is  that it now uses my own API key instead of the one provided by the professor and stores it using Secrets. I've also changed it to 2 inputs (latitude and longitude) instead of just 1 (zipcode). There are also more outputs now. It is now: Description, Temp, Icon, Humidity, Wind Speed, Cloudiness.  
+Description: This code creates a Node.js server using Express, fetches weather data 
+from the OpenWeather API based on a users latitude and longitude coordinates input, 
+and displays the results on a webpage. What I have changed is  that it now uses my 
+own API key instead of the one provided by the professor and stores it using Secrets. 
+I've also changed it to 2 inputs (latitude and longitude) instead of just 1 
+(zipcode). There are also more outputs now. It is now: Description, Temp, Icon, 
+Humidity, Wind Speed, Cloudiness.  
 
 Date: 03/07/2025
 Packages Used:
